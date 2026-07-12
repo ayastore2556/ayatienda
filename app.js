@@ -297,7 +297,7 @@ const PRODUCTS_DB = [
     category: "pants",
     imageSrc: "assets/img_94.jpeg",
     description: "Corte relajado de pierna ancha, franjas laterales y caída fluida.",
-    soldOut: false,
+    soldOut: true,
     isTop: true
   }
 ];
