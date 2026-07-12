@@ -115,6 +115,7 @@ const PRODUCTS_DB = [
     category: "oversize",
     imageSrc: "assets/img_tribal_back.jpeg",
     images: ["assets/img_tribal_back.jpeg", "assets/img_tribal_front.jpeg"],
+    sizes: ["L"],
     description: "Gráfica gótica tribal en verde y blanco sobre base blanca de contraste marcado.",
     soldOut: false,
     isTop: false
@@ -127,6 +128,7 @@ const PRODUCTS_DB = [
     category: "oversize",
     imageSrc: "assets/img_essentials_back.jpeg",
     images: ["assets/img_essentials_back.jpeg", "assets/img_essentials_front.jpeg"],
+    sizes: ["L"],
     description: "Estampado clásico Essentials en la espalda, tacto ultra suave y corte oversize relajado.",
     soldOut: false,
     isTop: false
@@ -139,6 +141,7 @@ const PRODUCTS_DB = [
     category: "oversize",
     imageSrc: "assets/img_skate_back.jpeg",
     images: ["assets/img_skate_back.jpeg", "assets/img_skate_front.jpeg"],
+    sizes: ["M"],
     description: "Gráfico ilustrado a gran escala en la espalda, fit relajado para el día a día.",
     soldOut: false,
     isTop: false
@@ -151,6 +154,7 @@ const PRODUCTS_DB = [
     category: "oversize",
     imageSrc: "assets/img_disaster_back.jpeg",
     images: ["assets/img_disaster_back.jpeg", "assets/img_disaster_front.jpeg"],
+    sizes: ["M"],
     description: "Tipografía statement en la espalda, tela pesada de tacto premium.",
     soldOut: false,
     isTop: true
@@ -163,6 +167,7 @@ const PRODUCTS_DB = [
     category: "oversize",
     imageSrc: "assets/img_dragon_front.jpeg",
     images: ["assets/img_dragon_front.jpeg", "assets/img_dragon_back.jpeg"],
+    sizes: ["M"],
     description: "Print frontal a color sobre algodón 100%, acabado mate y durable.",
     soldOut: false,
     isTop: false
@@ -175,6 +180,7 @@ const PRODUCTS_DB = [
     category: "oversize",
     imageSrc: "assets/img_mentality_back.jpeg",
     images: ["assets/img_mentality_back.jpeg", "assets/img_mentality_front.jpeg"],
+    sizes: ["M"],
     description: "Diseño gótico urbano en gran formato, corte oversize sin restar comodidad.",
     soldOut: false,
     isTop: true
@@ -187,6 +193,7 @@ const PRODUCTS_DB = [
     category: "oversize",
     imageSrc: "assets/img_la_blocks_back.jpeg",
     images: ["assets/img_la_blocks_back.jpeg", "assets/img_la_blocks_front.jpeg"],
+    sizes: ["M"],
     description: "Detalle LA estilo bandana en la espalda, silueta amplia sobre base de algodón premium blanco.",
     soldOut: false,
     isTop: false
@@ -199,6 +206,7 @@ const PRODUCTS_DB = [
     category: "oversize",
     imageSrc: "assets/img_la_back.jpeg",
     images: ["assets/img_la_back.jpeg", "assets/img_la_front.jpeg"],
+    sizes: ["M"],
     description: "Ilustración fina en la espalda, algodón ligero y transpirable.",
     soldOut: false,
     isTop: false
@@ -211,6 +219,7 @@ const PRODUCTS_DB = [
     category: "oversize",
     imageSrc: "assets/img_smile_back.jpeg",
     images: ["assets/img_smile_back.jpeg", "assets/img_smile_front.jpeg"],
+    sizes: ["M"],
     description: "Tono tierra de temporada con estampado desgastado tipo vintage.",
     soldOut: false,
     isTop: false
@@ -223,6 +232,7 @@ const PRODUCTS_DB = [
     category: "oversize",
     imageSrc: "assets/img_ny_front.jpeg",
     images: ["assets/img_ny_front.jpeg", "assets/img_ny_back.jpeg"],
+    sizes: ["M"],
     description: "Logo discreto en el pecho, básico versátil de alta rotación.",
     soldOut: false,
     isTop: false
@@ -234,6 +244,7 @@ const PRODUCTS_DB = [
     price: 35.00,
     category: "oversize",
     imageSrc: "assets/img_87.jpeg",
+    sizes: ["M"],
     description: "Grafismo denso estilo streetwear para quienes buscan destacar.",
     soldOut: false,
     isTop: true
@@ -245,6 +256,7 @@ const PRODUCTS_DB = [
     price: 35.00,
     category: "oversize",
     imageSrc: "assets/img_88.jpeg",
+    sizes: ["M"],
     description: "Ilustración tipo tatuaje sobre base blanca de contraste marcado.",
     soldOut: false,
     isTop: false
@@ -256,6 +268,7 @@ const PRODUCTS_DB = [
     price: 35.00,
     category: "oversize",
     imageSrc: "assets/img_90.jpeg",
+    sizes: ["M"],
     description: "Gráfico dorado de gran impacto, pieza statement para looks nocturnos.",
     soldOut: false,
     isTop: false
@@ -267,6 +280,7 @@ const PRODUCTS_DB = [
     price: 35.00,
     category: "oversize",
     imageSrc: "assets/img_91.jpeg",
+    sizes: ["M"],
     description: "Misma actitud en azul marino, tela de alto gramaje.",
     soldOut: false,
     isTop: false
@@ -279,6 +293,7 @@ const PRODUCTS_DB = [
     category: "oversize",
     imageSrc: "assets/img_tokyo_back.jpeg",
     images: ["assets/img_tokyo_back.jpeg", "assets/img_tokyo_front.jpeg"],
+    sizes: ["M"],
     description: "Ilustración oriental de cerezos y aves en la espalda sobre base de algodón negro premium.",
     soldOut: false,
     isTop: false
