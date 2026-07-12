@@ -134,6 +134,45 @@ const PRODUCTS_DB = [
     isTop: false
   },
   {
+    id: "AA-OS-13",
+    name: "OVERSIZE DRAGON GOLD",
+    ref: "REF. AA-OS-13",
+    price: 70.00,
+    category: "oversize",
+    imageSrc: "assets/img_dragon_gold_front.jpeg",
+    images: ["assets/img_dragon_gold_front.jpeg", "assets/img_dragon_gold_back.jpeg"],
+    sizes: ["M"],
+    description: "Imponente dragón blanco y dorado estampado al frente, con caligrafía Real King y grafismo en la espalda.",
+    soldOut: false,
+    isTop: false
+  },
+  {
+    id: "AA-OS-14",
+    name: "OVERSIZE DRAGON NAVY",
+    ref: "REF. AA-OS-14",
+    price: 60.00,
+    category: "oversize",
+    imageSrc: "assets/img_dragon_navy_front.jpeg",
+    images: ["assets/img_dragon_navy_front.jpeg", "assets/img_dragon_navy_back.jpeg"],
+    sizes: ["M"],
+    description: "Misma actitud en azul marino con el dragón crema estampado al frente, caligrafía Real King y grafismo en la espalda.",
+    soldOut: false,
+    isTop: false
+  },
+  {
+    id: "AA-OS-17",
+    name: "OVERSIZE CURIOUS URBAN",
+    ref: "REF. AA-OS-17",
+    price: 60.00,
+    category: "oversize",
+    imageSrc: "assets/img_curious_urban_front.jpeg",
+    images: ["assets/img_curious_urban_front.jpeg", "assets/img_curious_urban_back.jpeg"],
+    sizes: ["S"],
+    description: "Diseño Curious Urban en azul marino con ilustración clásica circular en la espalda y logo centrado al frente.",
+    soldOut: false,
+    isTop: false
+  },
+  {
     id: "AA-OS-02",
     name: "OVERSIZE SKATE GRAPHIC",
     ref: "REF. AA-OS-02",
@@ -234,54 +273,6 @@ const PRODUCTS_DB = [
     images: ["assets/img_ny_front.jpeg", "assets/img_ny_back.jpeg"],
     sizes: ["M"],
     description: "Logo discreto en el pecho, básico versátil de alta rotación.",
-    soldOut: false,
-    isTop: false
-  },
-  {
-    id: "AA-OS-10",
-    name: "OVERSIZE RESTRICTED",
-    ref: "REF. AA-OS-10",
-    price: 35.00,
-    category: "oversize",
-    imageSrc: "assets/img_87.jpeg",
-    sizes: ["M"],
-    description: "Grafismo denso estilo streetwear para quienes buscan destacar.",
-    soldOut: false,
-    isTop: true
-  },
-  {
-    id: "AA-OS-11",
-    name: "OVERSIZE TRIBAL WHITE",
-    ref: "REF. AA-OS-11",
-    price: 35.00,
-    category: "oversize",
-    imageSrc: "assets/img_88.jpeg",
-    sizes: ["M"],
-    description: "Ilustración tipo tatuaje sobre base blanca de contraste marcado.",
-    soldOut: false,
-    isTop: false
-  },
-  {
-    id: "AA-OS-13",
-    name: "OVERSIZE DRAGON GOLD",
-    ref: "REF. AA-OS-13",
-    price: 35.00,
-    category: "oversize",
-    imageSrc: "assets/img_90.jpeg",
-    sizes: ["M"],
-    description: "Gráfico dorado de gran impacto, pieza statement para looks nocturnos.",
-    soldOut: false,
-    isTop: false
-  },
-  {
-    id: "AA-OS-14",
-    name: "OVERSIZE DRAGON NAVY",
-    ref: "REF. AA-OS-14",
-    price: 35.00,
-    category: "oversize",
-    imageSrc: "assets/img_91.jpeg",
-    sizes: ["M"],
-    description: "Misma actitud en azul marino, tela de alto gramaje.",
     soldOut: false,
     isTop: false
   },
@@ -768,7 +759,7 @@ checkoutForm.addEventListener("submit", (e) => {
 👤 RECEPTOR: ${name}
 📍 DIRECCIÓN DELIVERY: ${address}
 🗺️ REFERENCIA: ${reference}
-🚚 ENVÍO: ¡GRATIS!
+🚚 ENVÍO: ¡GRATIS (JAÉN - CAJAMARCA)!
 
 🛒 DETALLE DE PRENDAS:
 ${itemsListText}----------------------------------
@@ -819,7 +810,7 @@ if (copyTicketBtn) {
 👤 RECEPTOR: ${name}
 📍 DIRECCIÓN DELIVERY: ${address}
 🗺️ REFERENCIA: ${reference}
-🚚 ENVÍO: ¡GRATIS!
+🚚 ENVÍO: ¡GRATIS (JAÉN - CAJAMARCA)!
 
 🛒 DETALLE DE PRENDAS:
 ${itemsListText}----------------------------------
