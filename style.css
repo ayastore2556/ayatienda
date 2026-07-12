@@ -1757,5 +1757,18 @@ body.no-scroll {
   50% { border-color: rgba(255, 60, 60, 0.8); box-shadow: 0 0 10px rgba(255, 60, 60, 0.2); }
 }
 
+.product-tag-badge.stock-warning-badge {
+  background: rgba(255, 60, 60, 0.08);
+  border: 1px solid rgba(255, 60, 60, 0.4);
+  color: #ff3c3c;
+  animation: dangerPulse 1.4s infinite ease-in-out;
+}
+
+.product-tag-badge.sold-out {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.3);
+}
+
 
 

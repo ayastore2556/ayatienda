@@ -108,23 +108,37 @@ const PRODUCTS_DB = [
     isTop: true
   },
   {
-    id: "AA-OS-01",
-    name: "OVERSIZE GRUNGE",
-    ref: "REF. AA-OS-01",
-    price: 50.00,
+    id: "AA-OS-12",
+    name: "OVERSIZE TRIBAL GREEN",
+    ref: "REF. AA-OS-12",
+    price: 70.00,
     category: "oversize",
-    imageSrc: "assets/img_78.jpeg",
-    description: "Estampado artesanal en tinta blanca sobre algodón grueso de caída suelta.",
+    imageSrc: "assets/img_tribal_back.jpeg",
+    images: ["assets/img_tribal_back.jpeg", "assets/img_tribal_front.jpeg"],
+    description: "Gráfica gótica tribal en verde y blanco sobre base blanca de contraste marcado.",
     soldOut: false,
-    isTop: true
+    isTop: false
+  },
+  {
+    id: "AA-OS-16",
+    name: "OVERSIZE ESSENTIALS",
+    ref: "REF. AA-OS-16",
+    price: 70.00,
+    category: "oversize",
+    imageSrc: "assets/img_essentials_back.jpeg",
+    images: ["assets/img_essentials_back.jpeg", "assets/img_essentials_front.jpeg"],
+    description: "Estampado clásico Essentials en la espalda, tacto ultra suave y corte oversize relajado.",
+    soldOut: false,
+    isTop: false
   },
   {
     id: "AA-OS-02",
     name: "OVERSIZE SKATE GRAPHIC",
     ref: "REF. AA-OS-02",
-    price: 50.00,
+    price: 35.00,
     category: "oversize",
-    imageSrc: "assets/img_79.jpeg",
+    imageSrc: "assets/img_skate_back.jpeg",
+    images: ["assets/img_skate_back.jpeg", "assets/img_skate_front.jpeg"],
     description: "Gráfico ilustrado a gran escala en la espalda, fit relajado para el día a día.",
     soldOut: false,
     isTop: false
@@ -133,9 +147,10 @@ const PRODUCTS_DB = [
     id: "AA-OS-03",
     name: "OVERSIZE DISASTER",
     ref: "REF. AA-OS-03",
-    price: 50.00,
+    price: 35.00,
     category: "oversize",
-    imageSrc: "assets/img_80.jpeg",
+    imageSrc: "assets/img_disaster_back.jpeg",
+    images: ["assets/img_disaster_back.jpeg", "assets/img_disaster_front.jpeg"],
     description: "Tipografía statement en la espalda, tela pesada de tacto premium.",
     soldOut: false,
     isTop: true
@@ -144,9 +159,10 @@ const PRODUCTS_DB = [
     id: "AA-OS-04",
     name: "OVERSIZE DRAGON",
     ref: "REF. AA-OS-04",
-    price: 50.00,
+    price: 35.00,
     category: "oversize",
-    imageSrc: "assets/img_81.jpeg",
+    imageSrc: "assets/img_dragon_front.jpeg",
+    images: ["assets/img_dragon_front.jpeg", "assets/img_dragon_back.jpeg"],
     description: "Print frontal a color sobre algodón 100%, acabado mate y durable.",
     soldOut: false,
     isTop: false
@@ -155,9 +171,10 @@ const PRODUCTS_DB = [
     id: "AA-OS-05",
     name: "OVERSIZE MENTALITY",
     ref: "REF. AA-OS-05",
-    price: 50.00,
+    price: 35.00,
     category: "oversize",
-    imageSrc: "assets/img_82.jpeg",
+    imageSrc: "assets/img_mentality_back.jpeg",
+    images: ["assets/img_mentality_back.jpeg", "assets/img_mentality_front.jpeg"],
     description: "Diseño gótico urbano en gran formato, corte oversize sin restar comodidad.",
     soldOut: false,
     isTop: true
@@ -166,10 +183,11 @@ const PRODUCTS_DB = [
     id: "AA-OS-06",
     name: "OVERSIZE LA BLOCKS",
     ref: "REF. AA-OS-06",
-    price: 50.00,
+    price: 35.00,
     category: "oversize",
-    imageSrc: "assets/img_83.jpeg",
-    description: "Bloques gráficos minimalistas en la espalda, ideal para looks de entretiempo.",
+    imageSrc: "assets/img_la_blocks_back.jpeg",
+    images: ["assets/img_la_blocks_back.jpeg", "assets/img_la_blocks_front.jpeg"],
+    description: "Detalle LA estilo bandana en la espalda, silueta amplia sobre base de algodón premium blanco.",
     soldOut: false,
     isTop: false
   },
@@ -177,9 +195,10 @@ const PRODUCTS_DB = [
     id: "AA-OS-07",
     name: "OVERSIZE LOS ANGELES",
     ref: "REF. AA-OS-07",
-    price: 50.00,
+    price: 35.00,
     category: "oversize",
-    imageSrc: "assets/img_84.jpeg",
+    imageSrc: "assets/img_la_back.jpeg",
+    images: ["assets/img_la_back.jpeg", "assets/img_la_front.jpeg"],
     description: "Ilustración fina en la espalda, algodón ligero y transpirable.",
     soldOut: false,
     isTop: false
@@ -188,9 +207,10 @@ const PRODUCTS_DB = [
     id: "AA-OS-08",
     name: "OVERSIZE SMILE",
     ref: "REF. AA-OS-08",
-    price: 50.00,
+    price: 35.00,
     category: "oversize",
-    imageSrc: "assets/img_85.jpeg",
+    imageSrc: "assets/img_smile_back.jpeg",
+    images: ["assets/img_smile_back.jpeg", "assets/img_smile_front.jpeg"],
     description: "Tono tierra de temporada con estampado desgastado tipo vintage.",
     soldOut: false,
     isTop: false
@@ -199,10 +219,11 @@ const PRODUCTS_DB = [
     id: "AA-OS-09",
     name: "OVERSIZE NY",
     ref: "REF. AA-OS-09",
-    price: 50.00,
+    price: 35.00,
     category: "oversize",
-    imageSrc: "assets/img_86.jpeg",
-    description: "Logo discreto en la espalda, básico versátil de alta rotación.",
+    imageSrc: "assets/img_ny_front.jpeg",
+    images: ["assets/img_ny_front.jpeg", "assets/img_ny_back.jpeg"],
+    description: "Logo discreto en el pecho, básico versátil de alta rotación.",
     soldOut: false,
     isTop: false
   },
@@ -210,7 +231,7 @@ const PRODUCTS_DB = [
     id: "AA-OS-10",
     name: "OVERSIZE RESTRICTED",
     ref: "REF. AA-OS-10",
-    price: 50.00,
+    price: 35.00,
     category: "oversize",
     imageSrc: "assets/img_87.jpeg",
     description: "Grafismo denso estilo streetwear para quienes buscan destacar.",
@@ -221,7 +242,7 @@ const PRODUCTS_DB = [
     id: "AA-OS-11",
     name: "OVERSIZE TRIBAL WHITE",
     ref: "REF. AA-OS-11",
-    price: 50.00,
+    price: 35.00,
     category: "oversize",
     imageSrc: "assets/img_88.jpeg",
     description: "Ilustración tipo tatuaje sobre base blanca de contraste marcado.",
@@ -229,21 +250,10 @@ const PRODUCTS_DB = [
     isTop: false
   },
   {
-    id: "AA-OS-12",
-    name: "OVERSIZE TRIBAL GREEN",
-    ref: "REF. AA-OS-12",
-    price: 50.00,
-    category: "oversize",
-    imageSrc: "assets/img_89.jpeg",
-    description: "Detalle en verde sobre gris, silueta amplia y cómoda.",
-    soldOut: false,
-    isTop: false
-  },
-  {
     id: "AA-OS-13",
     name: "OVERSIZE DRAGON GOLD",
     ref: "REF. AA-OS-13",
-    price: 50.00,
+    price: 35.00,
     category: "oversize",
     imageSrc: "assets/img_90.jpeg",
     description: "Gráfico dorado de gran impacto, pieza statement para looks nocturnos.",
@@ -254,7 +264,7 @@ const PRODUCTS_DB = [
     id: "AA-OS-14",
     name: "OVERSIZE DRAGON NAVY",
     ref: "REF. AA-OS-14",
-    price: 50.00,
+    price: 35.00,
     category: "oversize",
     imageSrc: "assets/img_91.jpeg",
     description: "Misma actitud en azul marino, tela de alto gramaje.",
@@ -265,10 +275,11 @@ const PRODUCTS_DB = [
     id: "AA-OS-15",
     name: "OVERSIZE TOKYO",
     ref: "REF. AA-OS-15",
-    price: 50.00,
+    price: 35.00,
     category: "oversize",
-    imageSrc: "assets/img_92.jpeg",
-    description: "Inspiración urbana japonesa con print detallado en la espalda.",
+    imageSrc: "assets/img_tokyo_back.jpeg",
+    images: ["assets/img_tokyo_back.jpeg", "assets/img_tokyo_front.jpeg"],
+    description: "Ilustración oriental de cerezos y aves en la espalda sobre base de algodón negro premium.",
     soldOut: false,
     isTop: false
   },
@@ -288,6 +299,7 @@ const PRODUCTS_DB = [
 // 2. State Variables
 let cart = [];
 let selectedSizes = {}; // Maps productId -> selectedSize
+let activeSliderIntervals = [];
 
 // 3. Select DOM Elements
 const catalogGrid = document.getElementById("catalog-grid");
@@ -354,12 +366,10 @@ function renderCatalog(filter = "all") {
     }
     
     let badgeHTML = "";
-    if (product.limitedStock) {
-      badgeHTML = '<span class="product-tag-badge limited-stock">⚡ POCO STOCK</span>';
+    if (product.soldOut) {
+      badgeHTML = '<span class="product-tag-badge sold-out">AGOTADO</span>';
     } else {
-      badgeHTML = product.isTop 
-        ? '<span class="product-tag-badge top-seller">BEST SELLER</span>' 
-        : '<span class="product-tag-badge limited">LTD EDITION</span>';
+      badgeHTML = '<span class="product-tag-badge stock-warning-badge">⚠️ ¡ÚLTIMA UNIDAD!</span>';
     }
 
     const isPant = product.category === "pants";
@@ -373,9 +383,21 @@ function renderCatalog(filter = "all") {
       <span class="card-corner-tag bottom-right">[LIMIT_ED]</span>
     `;
 
-    const imageContainerContent = `
-      <img class="product-image" src="${product.imageSrc}" alt="${product.name}" loading="lazy">
-    `;
+    let imageContainerContent = "";
+    if (product.images && product.images.length > 0) {
+      const slidesHTML = product.images.map((img, i) => `
+        <img class="product-image slide-img" src="${img}" alt="${product.name}" loading="lazy" style="width: 100%; height: 100%; flex-shrink: 0; object-fit: cover;">
+      `).join("");
+      imageContainerContent = `
+        <div class="product-slider" data-prod-id="${product.id}" style="display: flex; width: 100%; height: 100%; transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);">
+          ${slidesHTML}
+        </div>
+      `;
+    } else {
+      imageContainerContent = `
+        <img class="product-image" src="${product.imageSrc}" alt="${product.name}" loading="lazy">
+      `;
+    }
 
     card.innerHTML = `
       ${cornerTagsHTML}
@@ -394,7 +416,6 @@ function renderCatalog(filter = "all") {
       <div class="product-details-box">
         <div class="product-tag-row">
           ${badgeHTML}
-          <span class="product-ref-badge">${product.ref}</span>
         </div>
         <h3 class="product-title">${product.name}</h3>
         <p class="product-desc">${product.description || ""}</p>
@@ -411,6 +432,7 @@ function renderCatalog(filter = "all") {
   
   observeCards();
   bindCatalogEvents();
+  startImageSliders();
 }
 
 // Intersection Observer for scroll-driven animations
@@ -501,8 +523,19 @@ function loadCart() {
   const savedCart = localStorage.getItem("aa_style_cart");
   if (savedCart) {
     cart = JSON.parse(savedCart);
+    cart.forEach(item => {
+      const product = PRODUCTS_DB.find(p => p.id === item.id);
+      if (product) {
+        product.soldOut = true;
+      }
+    });
   }
   updateCartUI();
+  
+  // Refresh live catalog after state load
+  const activeFilterBtn = filtersContainer.querySelector(".filter-btn.active");
+  const activeFilter = activeFilterBtn ? activeFilterBtn.getAttribute("data-filter") : "all";
+  renderCatalog(activeFilter);
 }
 
 function saveCart() {
@@ -514,11 +547,16 @@ function addToCart(prodId, size) {
   const product = PRODUCTS_DB.find(p => p.id === prodId);
   if (!product) return;
   
-  // Match item by ID AND Size
+  if (product.soldOut) {
+    showMicroAlert("🚨 ESTE PRODUCTO YA SE ENCUENTRA AGOTADO");
+    return;
+  }
+  
   const existingItemIndex = cart.findIndex(item => item.id === prodId && item.size === size);
   
   if (existingItemIndex > -1) {
-    cart[existingItemIndex].quantity += 1;
+    showMicroAlert("🚨 SOLO QUEDA 1 UNIDAD, YA ESTÁ EN TU CARRITO");
+    return;
   } else {
     cart.push({
       id: product.id,
@@ -531,12 +569,16 @@ function addToCart(prodId, size) {
     });
   }
   
+  product.soldOut = true;
   saveCart();
   showMicroAlert(`⚡ AGREGADO: ${product.name} (TALLA ${size})`);
   
-  // Cart Badge Pulse animation feedback
+  const activeFilterBtn = filtersContainer.querySelector(".filter-btn.active");
+  const activeFilter = activeFilterBtn ? activeFilterBtn.getAttribute("data-filter") : "all";
+  renderCatalog(activeFilter);
+  
   cartBadge.classList.remove("cart-badge-pulse");
-  void cartBadge.offsetWidth; // trigger reflow
+  void cartBadge.offsetWidth;
   cartBadge.classList.add("cart-badge-pulse");
 }
 
@@ -588,27 +630,30 @@ function updateCartUI() {
 }
 
 function bindCartEvents() {
-  // Decrease Quantity
+  // Decrease Quantity (removes item since stock is 1)
   const decBtns = cartItemsContainer.querySelectorAll(".dec-qty-btn");
   decBtns.forEach(btn => {
     btn.addEventListener("click", () => {
       const idx = parseInt(btn.getAttribute("data-index"));
-      if (cart[idx].quantity > 1) {
-        cart[idx].quantity -= 1;
-      } else {
-        cart.splice(idx, 1);
+      const item = cart[idx];
+      const product = PRODUCTS_DB.find(p => p.id === item.id);
+      if (product) {
+        product.soldOut = false;
       }
+      cart.splice(idx, 1);
       saveCart();
+      
+      const activeFilterBtn = filtersContainer.querySelector(".filter-btn.active");
+      const activeFilter = activeFilterBtn ? activeFilterBtn.getAttribute("data-filter") : "all";
+      renderCatalog(activeFilter);
     });
   });
 
-  // Increase Quantity
+  // Increase Quantity (blocked since stock is 1)
   const incBtns = cartItemsContainer.querySelectorAll(".inc-qty-btn");
   incBtns.forEach(btn => {
     btn.addEventListener("click", () => {
-      const idx = parseInt(btn.getAttribute("data-index"));
-      cart[idx].quantity += 1;
-      saveCart();
+      showMicroAlert("🚨 SOLO HAY 1 UNIDAD DISPONIBLE DE ESTE PRODUCTO");
     });
   });
 
@@ -617,8 +662,17 @@ function bindCartEvents() {
   removeBtns.forEach(btn => {
     btn.addEventListener("click", () => {
       const idx = parseInt(btn.getAttribute("data-index"));
+      const item = cart[idx];
+      const product = PRODUCTS_DB.find(p => p.id === item.id);
+      if (product) {
+        product.soldOut = false;
+      }
       cart.splice(idx, 1);
       saveCart();
+      
+      const activeFilterBtn = filtersContainer.querySelector(".filter-btn.active");
+      const activeFilter = activeFilterBtn ? activeFilterBtn.getAttribute("data-filter") : "all";
+      renderCatalog(activeFilter);
     });
   });
 }
@@ -933,4 +987,26 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     }
   });
 });
+
+// 8. Automatic Image Sliders (Temu/Shein Slideshow Style)
+function startImageSliders() {
+  activeSliderIntervals.forEach(clearInterval);
+  activeSliderIntervals = [];
+
+  const sliders = document.querySelectorAll(".product-slider");
+  sliders.forEach(slider => {
+    const prodId = slider.getAttribute("data-prod-id");
+    const product = PRODUCTS_DB.find(p => p.id === prodId);
+    if (!product || !product.images || product.images.length <= 1) return;
+
+    let currentIndex = 0;
+    const intervalId = setInterval(() => {
+      currentIndex = (currentIndex + 1) % product.images.length;
+      const offset = currentIndex * -100;
+      slider.style.transform = `translateX(${offset}%)`;
+    }, 3000);
+
+    activeSliderIntervals.push(intervalId);
+  });
+}
 
